@@ -8,9 +8,13 @@
     "export": "next export"
   },
   "dependencies": {
+    "@slack/web-api": "^6.7.0",
+    "axios": "^0.26.1",
     "next": "^12.0.7",
+    "qs": "^6.10.3",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "swr": "^1.2.2"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.0.0"
